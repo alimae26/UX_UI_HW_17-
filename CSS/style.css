@@ -41,6 +41,7 @@ body {
   border: 1px solid white;
   padding: 10px;
   cursor: pointer;
+  width: 140px;
 }
 
 .workHeading {
@@ -71,7 +72,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   font-family: "calder-dark", sans-serif;
-  font-weight: 200;
+  font-size: 20px;
 }
 
 .headerContainer {
@@ -119,6 +120,7 @@ body {
 .headerSkills {
   font-family: "soleil", sans-serif;
   margin: 0;
+  font-size: 16.5px;
 }
 
 .linkContainer {
