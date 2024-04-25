@@ -1,15 +1,16 @@
 {
   "folders": [
-	{
-		"name": "UX_UI_HW_17",
-		"path": "../../../Documents/GitHub/UX_UI_HW_17"
-	},
-	{
-		"name": "HTML CSS CODE",
-		"path": ".."
-	}
-],
+    {
+      "name": "UX_UI_HW_17",
+      "path": "../../../Documents/GitHub/UX_UI_HW_17"
+    },
+    {
+      "name": "HTML CSS CODE",
+      "path": ".."
+    }
+  ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "HTML CSS CODE"
+    "liveServer.settings.multiRootWorkspaceName": "HTML CSS CODE",
+    "liveServer.settings.port": 5501
   }
 }

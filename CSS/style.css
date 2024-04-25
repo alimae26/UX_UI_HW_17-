@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 18px;
   padding: 15px;
   font-family: "calder-dark", sans-serif;
 }
@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navButton {
@@ -124,6 +125,8 @@ body {
 }
 
 .linkContainer {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "soleil", sans-serif;
   font-weight: 600;
   display: flex;
