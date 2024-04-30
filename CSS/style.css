@@ -25,6 +25,7 @@ body {
   font-size: 18px;
   padding: 15px;
   font-family: "calder-dark", sans-serif;
+  margin: 20px;
 }
 .cardContainer {
   width: 100%;
@@ -54,6 +55,7 @@ body {
 .scallopContainer {
   margin-top: 110px;
   background: black;
+  width: 100%;
 }
 .footerContainer {
   color: white;
@@ -75,6 +77,9 @@ body {
   font-family: "calder-dark", sans-serif;
   font-size: 20px;
 }
+.footerNavContainer a {
+  color: white;
+}
 
 .headerContainer {
   display: flex;
@@ -86,6 +91,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 10px solid #ec4925;
+  background-position: center;
 }
 .headerContainerCommon {
   display: flex;
@@ -134,7 +140,9 @@ body {
   width: 30%;
   font-size: 20px;
 }
-
+.linkContainer a {
+  color: black;
+}
 a:hover {
   color: #ec4925;
 }
@@ -150,9 +158,11 @@ button:hover {
 }
 .scallop {
   margin-top: 10px;
+  width: 100%;
 }
 .headerName2 {
   font-size: 24px;
+  color: black;
 }
 .heading {
   font-size: 40px;
@@ -237,4 +247,8 @@ button:hover {
   padding-right: 125px;
   padding-left: 125px;
   justify-content: space-between;
+}
+
+.activemenuitem {
+  color: pink !important;
 }

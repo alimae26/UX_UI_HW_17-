@@ -12,10 +12,10 @@
     <header class="headerContainer">
       <div class="navContainer">
         <div class="linkContainer">
-          <a href="about.html">About</a>
+          <a href="/about.html" id="about">About</a>
           <a>Resume</a>
-          <a>Work</a>
-          <a>Contact</a>
+          <a href="/MyWork.html" id="workheader">Work</a>
+          <a href="/ContactMe.html">Contact</a>
         </div>
         <img class="logo" src="./Images/HeaderLogo.png" />
       </div>
@@ -30,15 +30,15 @@
       <div class="cardContainer">
         <div class="experienceCard">
           <p>Reclamation Clubhouse</p>
-          <button class="navButton">Keep Going</button>
+          <button class="navButton" id="clubhousekeep">Keep Going</button>
         </div>
         <div class="experienceCard">
           <p>Department of Labor</p>
-          <button class="navButton">Keep Going</button>
+          <button class="navButton" id="dolkeep">Keep Going</button>
         </div>
         <div class="experienceCard">
           <p>Honest Eats</p>
-          <button class="navButton">Keep Going</button>
+          <button class="navButton" id="honestkeep">Keep Going</button>
         </div>
       </div>
     </div>
@@ -47,16 +47,18 @@
       <div class="footerContainer">
         <p>ALI MOORE</p>
         <div class="footerNavContainer">
-          <a>WORK</a>
-          <a>ABOUT</a>
+          <a href="/MyWork.html" id="workfooter">WORK</a>
+          <a href="/about.html" id="aboutfooter">ABOUT</a>
         </div>
         <div class="footerNavContainer">
-          <a>CONTACT</a>
-          <a>RESUME</a>
+          <a href="/ContactMe.html" id="contactfooter">CONTACT</a>
+          <a href="./resume/UX_UI Resumé.pdf">RESUME</a>
         </div>
       </div>
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./JS/index.js"></script>
   <link rel="stylesheet" href="https://use.typekit.net/sxo7ilb.css" />
   <link rel="stylesheet" href="https://use.typekit.net/sxo7ilb.css" />
 </html>
